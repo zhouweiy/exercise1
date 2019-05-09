@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello World</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+<?php
+/*
+  Author: Your Instructor
+  File name: hello_world.php
+  Date created: Summer 2018
+  Description: 
+	example of hybrid PHP to demonstrate how and where php code can be placed 
+	inside HTML code
+	all code outside the start and stop processing instructions is ignored
+	by the PHP intepreter
+	all code inside will be processed by the PHP interpreter and replaced
+	by the results of the processing
+*/
+
+// declare and initialize variable $txt to store the value Hello World
+$txt = "Hello World!";
+
+// display the stored value in variable $txt in the <body> element
+echo $txt;
+?>
+
+</body>
+</html>
