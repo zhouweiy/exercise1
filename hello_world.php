@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 </head>
 <body>
-
+	
 <?php
 // declare and initialize variable $txt to store the value Hello World
 $txt = "Hello World!";
